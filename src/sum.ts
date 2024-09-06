@@ -1,5 +1,5 @@
-function sum(a: number, b: number): number {
-    return a + b;
+function sum(a: number, b: number, c: number): number {
+    return a + b + c;
 }
 
-console.log(sum(2, 6));
+console.log(sum(2, 6, 10));
